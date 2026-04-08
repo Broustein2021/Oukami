@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charte Graphique — AssuRStable × YAKO Africa</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--vert:#076834;--vert-m:#0D8E46;--vert-p:#E8F5EE;--vert-b:#C2E0CE;--or:#F7A400;--or-c:#FFF4DC;--or-f:#C47D00;--beige:#FDF8F2;--terre:#F5EDE4;--blanc:#FFFFFF;--noir:#1A1A1A;--gris:#6B7280;--gris-c:#F4F4F4;--gris-b:#E5E7EB}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--beige);color:var(--noir);line-height:1.6}
+.hero{background:var(--vert);color:white;padding:64px 60px 56px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;right:-40px;top:-40px;width:280px;height:280px;border-radius:50%;background:var(--or);opacity:.12}
+.hero::after{content:'';position:absolute;left:36%;bottom:-60px;width:180px;height:180px;border-radius:50%;background:var(--or);opacity:.08}
+.htag{display:inline-block;background:rgba(247,164,0,.25);border:1px solid rgba(247,164,0,.4);border-radius:20px;padding:5px 16px;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#FFDA80;margin-bottom:20px}
+.hero h1{font-family:'Sora',sans-serif;font-size:46px;font-weight:800;line-height:1.1;margin-bottom:12px}
+.hero h1 em{font-style:normal;color:var(--or)}
+.hero p{font-size:15px;opacity:.8;max-width:540px;line-height:1.7}
+.hmeta{margin-top:28px;display:flex;gap:28px;flex-wrap:wrap}
+.hmeta-i{font-size:12px;opacity:.65}
+.hmeta-i strong{opacity:1;color:#FFDA80}
+.sec{padding:60px;border-bottom:1px solid var(--gris-b);background:var(--blanc)}
+.sec.bg{background:var(--beige)}
+.stag{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--vert);margin-bottom:6px}
+.stitle{font-family:'Sora',sans-serif;font-size:28px;font-weight:700;margin-bottom:8px}
+.ssub{font-size:14px;color:var(--gris);max-width:600px;margin-bottom:36px;line-height:1.7}
+.pg{margin-bottom:32px}
+.pglabel{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gris);margin-bottom:12px}
+.prow{display:flex;gap:12px;flex-wrap:wrap}
+.sw{display:flex;flex-direction:column;border-radius:14px;overflow:hidden;border:1px solid var(--gris-b);flex:1;min-width:140px;max-width:200px}
+.swc{height:88px;position:relative}
+.swrole{position:absolute;bottom:8px;left:10px;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;border-radius:6px;background:rgba(0,0,0,.25);color:white}
+.swi{background:white;padding:12px 14px}
+.swname{font-size:13px;font-weight:700;margin-bottom:2px}
+.swhex{font-size:11px;font-family:monospace;color:var(--gris)}
+.swuse{font-size:11px;color:var(--gris);margin-top:5px;line-height:1.4}
+.cnote{margin-top:24px;background:var(--vert-p);border:1px solid var(--vert-b);border-left:4px solid var(--vert);border-radius:12px;padding:20px 24px;font-size:13px;color:#0D4D28;line-height:1.7}
+.cnote strong{color:var(--vert)}
+.trow{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px}
+.tcard{background:var(--gris-c);border-radius:16px;padding:28px;border:1px solid var(--gris-b)}
+.ts-sora{font-family:'Sora',sans-serif;font-size:42px;font-weight:800;color:var(--vert);line-height:1;margin-bottom:14px}
+.ts-jak{font-size:28px;font-weight:600;color:var(--noir);line-height:1.1;margin-bottom:14px}
+.tmeta{font-size:12px;color:var(--gris);margin-bottom:4px}
+.tname{font-size:16px;font-weight:700;margin-bottom:4px}
+.tuse{font-size:12px;color:var(--gris)}
+.sbox{background:white;border:1px solid var(--gris-b);border-radius:16px;padding:28px 32px}
+.si{display:flex;align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px solid var(--gris-c)}
+.si:last-child{border-bottom:none}
+.slabel{font-size:11px;color:var(--gris);min-width:120px;font-weight:600;font-family:monospace}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.cc{background:white;border-radius:16px;padding:26px;border:1px solid var(--gris-b)}
+.clabel{font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--gris);margin-bottom:18px}
+.btn{display:inline-block;padding:13px 24px;border-radius:12px;font-family:'Plus Jakarta Sans',sans-serif;font-size:14px;font-weight:700;cursor:pointer;border:none;margin:5px 4px;letter-spacing:.3px}
+.bp{background:var(--vert);color:white}
+.bs{background:var(--or);color:#412402}
+.bo{background:transparent;border:2px solid var(--vert);color:var(--vert)}
+.bg2{background:var(--vert-p);color:var(--vert);border:1px solid var(--vert-b)}
+.bd{background:#E53E3E;color:white}
+.bsm{padding:8px 16px;font-size:13px;border-radius:9px}
+.inp{width:100%;padding:13px 16px;border:1.5px solid var(--gris-b);border-radius:12px;font-family:'Plus Jakarta Sans',sans-serif;font-size:14px;color:var(--noir);background:white;margin-bottom:10px;outline:none}
+.inp.filled{border-color:var(--vert);background:var(--vert-p)}
+.inlabel{font-size:13px;font-weight:600;margin-bottom:5px;display:block}
+.inhint{font-size:11px;color:var(--gris);margin-top:-6px;margin-bottom:12px}
+.inerr{font-size:11px;color:#E53E3E;margin-top:-6px;margin-bottom:12px}
+.badge{display:inline-block;padding:4px 11px;border-radius:20px;font-size:11px;font-weight:700;margin:3px}
+.bsuc{background:var(--vert-p);color:#065C2E;border:1px solid var(--vert-b)}
+.bwarn{background:var(--or-c);color:#7A4D00;border:1px solid #F7C96A}
+.berr{background:#FEE2E2;color:#991B1B;border:1px solid #FCA5A5}
+.binf{background:#DBEAFE;color:#1E40AF;border:1px solid #BFDBFE}
+.bneu{background:var(--gris-c);color:var(--gris);border:1px solid var(--gris-b)}
+.otp{display:flex;gap:8px;margin:10px 0}
+.ob{width:46px;height:52px;border:2px solid var(--gris-b);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:800;background:white;color:var(--vert)}
+.ob.act{border-color:var(--vert);background:var(--vert-p)}
+.ob.fil{border-color:var(--vert);color:var(--vert)}
+.pm{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1.5px solid var(--gris-b);border-radius:14px;margin-bottom:10px;cursor:pointer;background:white}
+.pm.sel{border-color:var(--vert);background:var(--vert-p)}
+.pdot{width:18px;height:18px;border-radius:50%;border:2px solid var(--gris-b);flex-shrink:0}
+.pm.sel .pdot{border-color:var(--vert);background:var(--vert)}
+.picon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.pname{font-size:13px;font-weight:700}
+.pdesc{font-size:11px;color:var(--gris);margin-top:1px}
+.ccon{border-radius:16px;overflow:hidden;border:1px solid var(--gris-b);margin-bottom:10px}
+.cctop{padding:16px 18px;display:flex;align-items:center;justify-content:space-between}
+.ccico{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.ccname{font-size:14px;font-weight:700}
+.ccsub{font-size:12px;opacity:.7;margin-top:2px}
+.ccamt{font-size:18px;font-weight:800;text-align:right}
+.ccalab{font-size:10px;opacity:.65;text-align:right}
+.ccbot{padding:10px 18px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.15);font-size:12px}
+.phsec{background:var(--vert);padding:60px;display:flex;gap:60px;align-items:center;flex-wrap:wrap}
+.phtext{flex:1;min-width:280px;color:white}
+.phtext h2{font-family:'Sora',sans-serif;font-size:26px;font-weight:700;margin-bottom:12px}
+.phtext p{font-size:14px;opacity:.75;line-height:1.8}
+.phck{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:13px}
+.phck::before{content:'✓';color:var(--or);font-weight:800;font-size:15px}
+.pfr{width:260px;background:#111;border-radius:36px;padding:10px;box-shadow:0 30px 80px rgba(0,0,0,.4);flex-shrink:0}
+.pnotch{width:80px;height:22px;background:#111;border-radius:11px;margin:0 auto 8px;border:2px solid #222}
+.pscr{background:var(--beige);border-radius:28px;overflow:hidden;min-height:460px}
+.psh{background:var(--vert);padding:20px 18px 18px;color:white}
+.psgreet{font-size:12px;opacity:.7}
+.psname{font-size:17px;font-weight:800;margin-bottom:14px}
+.psbal{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:14px 16px}
+.psballab{font-size:10px;opacity:.65;letter-spacing:1px;text-transform:uppercase}
+.psamt{font-size:22px;font-weight:800;margin:4px 0}
+.psamsub{font-size:10px;opacity:.6}
+.pspay{display:block;margin-top:12px;width:100%;padding:10px;background:var(--or);color:#412402;border:none;border-radius:10px;font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;font-weight:800;cursor:pointer;text-align:center}
+.psb{padding:14px 14px 10px}
+.pssl{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris);margin-bottom:10px}
+.psprod{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.pspc{background:white;border-radius:12px;padding:11px 10px;border:1px solid var(--gris-b)}
+.pspi{font-size:16px;margin-bottom:5px}
+.pspn{font-size:10px;font-weight:700;color:var(--vert)}
+.pspam{font-size:9px;color:var(--gris);margin-top:2px}
+.psnav{display:flex;background:white;border-top:1px solid var(--gris-b);padding:8px 0 4px}
+.psni{flex:1;text-align:center;font-size:9px;color:var(--gris);display:flex;flex-direction:column;align-items:center;gap:2px}
+.psni.act{color:var(--vert);font-weight:700}
+.psnavico{font-size:14px}
+.tkgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.tkcard{background:white;border:1px solid var(--gris-b);border-radius:14px;padding:18px 20px}
+.tkcat{font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--gris);margin-bottom:12px}
+.tkrow{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--gris-c);font-size:12px}
+.tkrow:last-child{border-bottom:none}
+.tknm{color:var(--gris);font-weight:500}
+.tkval{font-family:monospace;font-weight:700;color:var(--noir)}
+.steps{display:flex;gap:0;overflow-x:auto;padding-bottom:8px}
+.step-i{flex-shrink:0;width:140px;position:relative;padding-right:16px}
+.step-i:not(:last-child)::after{content:'→';position:absolute;right:0;top:22px;color:var(--or);font-size:14px;font-weight:800}
+.stepcirc{width:46px;height:46px;border-radius:50%;background:var(--vert-p);border:2px solid var(--vert-b);display:flex;align-items:center;justify-content:center;font-size:18px;margin-bottom:10px}
+.stepn{font-size:10px;font-weight:800;color:var(--vert);letter-spacing:1px;margin-bottom:4px}
+.stepname{font-size:12px;font-weight:700;line-height:1.3;margin-bottom:4px}
+.stepdesc{font-size:11px;color:var(--gris);line-height:1.4}
+.contgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.contcard{border-radius:12px;padding:18px 16px;display:flex;flex-direction:column;gap:8px;border:1px solid var(--gris-b)}
+.contsample{font-size:20px;font-weight:700}
+.contmeta{font-size:11px;color:var(--gris)}
+.contratio{font-size:13px;font-weight:800}
+.rok{color:#065C2E}
+.rgo{color:#B45309}
+.footer{background:var(--noir);color:rgba(255,255,255,.7);padding:40px 60px;font-size:13px;line-height:1.8}
+.footer h3{font-family:'Sora',sans-serif;font-size:20px;font-weight:700;color:white;margin-bottom:8px}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-top:28px}
+.fcol h4{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:10px}
+.fi{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:12px}
+.fsw{width:14px;height:14px;border-radius:4px;flex-shrink:0}
+code{font-family:monospace;background:rgba(255,255,255,.08);padding:2px 6px;border-radius:4px;font-size:12px;color:#80CBC4}
+.code-block{background:#1A1A1A;border-radius:16px;padding:28px 32px;font-family:monospace;font-size:13px;line-height:2;overflow-x:auto;margin-bottom:24px}
+@media(max-width:700px){.hero{padding:40px 24px}.hero h1{font-size:30px}.sec{padding:36px 20px}.trow{grid-template-columns:1fr}.phsec{padding:36px 20px;flex-direction:column}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="htag">Charte Graphique Officielle</div>
+  <h1>AssuRStable<br><em>× YAKO Africa</em></h1>
+  <p>Une identité visuelle ancrée dans les valeurs ivoiriennes — la solidarité, la confiance, la chaleur humaine — conçue pour être accessible à toutes les couches sociales et toutes les ethnies.</p>
+  <div class="hmeta">
+    <div class="hmeta-i"><strong>Principale :</strong> #076834 Vert Forêt</div>
+    <div class="hmeta-i"><strong>Action :</strong> #F7A400 Or Akan</div>
+    <div class="hmeta-i"><strong>Polices :</strong> Sora + Plus Jakarta Sans</div>
+    <div class="hmeta-i"><strong>Esprit :</strong> Confiant · Chaleureux · Accessible</div>
+  </div>
+</div>
+
+<!-- 01 PALETTE -->
+<div class="sec bg">
+  <div class="stag">01 — Couleurs</div>
+  <div class="stitle">Palette de couleurs</div>
+  <div class="ssub">3 familles de couleurs, chacune avec un sens culturel profond. Jamais plus de 3 couleurs sur un même écran. Règle : vert pour les structures, or pour les actions, beige/terre pour le repos visuel.</div>
+
+  <div class="pg">
+    <div class="pglabel">Famille Principale — Vert de la forêt ivoirienne</div>
+    <div class="prow">
+      <div class="sw"><div class="swc" style="background:#076834;"><span class="swrole">Primaire</span></div><div class="swi"><div class="swname">Vert Forêt</div><div class="swhex">#076834</div><div class="swuse">Header, nav, bouton principal, icônes actives. Identité officielle YAKO Africa.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#0D8E46;"><span class="swrole">Moyen</span></div><div class="swi"><div class="swname">Vert Savane</div><div class="swhex">#0D8E46</div><div class="swuse">Hover, icônes secondaires, bordures actives.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#E8F5EE;border-bottom:1px solid #C2E0CE;"><span class="swrole" style="background:rgba(7,104,52,.35);">Pâle</span></div><div class="swi"><div class="swname">Vert Pâle</div><div class="swhex">#E8F5EE</div><div class="swuse">Fonds de cartes, états sélectionnés, badges succès.</div></div></div>
+    </div>
+  </div>
+
+  <div class="pg">
+    <div class="pglabel">Famille Action — Or Akan (symbole de richesse et dignité dans la culture Akan)</div>
+    <div class="prow">
+      <div class="sw"><div class="swc" style="background:#F7A400;"><span class="swrole">Action</span></div><div class="swi"><div class="swname">Or Akan</div><div class="swhex">#F7A400</div><div class="swuse">Boutons CTA, "Payer ma prime", notifications, badges actifs.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#FFF4DC;border-bottom:1px solid #F7C96A;"><span class="swrole" style="background:rgba(196,125,0,.35);">Clair</span></div><div class="swi"><div class="swname">Or Pâle</div><div class="swhex">#FFF4DC</div><div class="swuse">Fonds d'alertes, messages info, zones en attente.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#C47D00;"><span class="swrole">Foncé</span></div><div class="swi"><div class="swname">Or Profond</div><div class="swhex">#C47D00</div><div class="swuse">Texte sur fond or, icônes dans boutons CTA.</div></div></div>
+    </div>
+  </div>
+
+  <div class="pg">
+    <div class="pglabel">Famille Neutre — Chaleur de la terre ivoirienne (wax, argile, pagne naturel)</div>
+    <div class="prow">
+      <div class="sw"><div class="swc" style="background:#FDF8F2;border-bottom:1px solid #E5E7EB;"><span class="swrole" style="background:rgba(123,78,40,.3);">Fond</span></div><div class="swi"><div class="swname">Beige Wax</div><div class="swhex">#FDF8F2</div><div class="swuse">Fond global de l'app. Chaleur sans agressivité.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#F5EDE4;border-bottom:1px solid #E5D5C5;"><span class="swrole" style="background:rgba(123,78,40,.3);">Repos</span></div><div class="swi"><div class="swname">Terre Claire</div><div class="swhex">#F5EDE4</div><div class="swuse">Sections alternatives, zones non actives.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#1A1A1A;"><span class="swrole">Texte</span></div><div class="swi"><div class="swname">Noir Texte</div><div class="swhex">#1A1A1A</div><div class="swuse">Corps, titres, valeurs importantes.</div></div></div>
+      <div class="sw"><div class="swc" style="background:#6B7280;"><span class="swrole">Sec.</span></div><div class="swi"><div class="swname">Gris Moyen</div><div class="swhex">#6B7280</div><div class="swuse">Labels, placeholders, dates, textes d'aide.</div></div></div>
+    </div>
+  </div>
+
+  <div class="cnote">
+    <strong>Pourquoi ces couleurs résonnent avec toutes les communautés ivoiriennes :</strong><br>
+    Le <strong>vert</strong> (#076834) évoque la forêt, la fertilité, l'espoir — universel du nord au sud, Baoulé, Dioula, Bété, Sénoufo ou Agni.
+    L'<strong>or</strong> (#F7A400) représente la dignité et le prestige dans la culture Akan (bijoux, pagne wax doré, cérémonies) — jamais ostentatoire, toujours honorifique.
+    Le <strong>beige/terre</strong> rappelle le sol ivoirien, l'argile des maisons traditionnelles, le pagne naturel : cette couleur dit "on est chez soi".
+    Ces 3 couleurs parlent à la couturière de Yopougon, au commerçant d'Adjamé ET au cadre du Plateau.
+  </div>
+</div>
+
+<!-- 02 TYPO -->
+<div class="sec">
+  <div class="stag">02 — Typographie</div>
+  <div class="stitle">Système de polices</div>
+  <div class="ssub">Deux polices complémentaires. Sora pour l'impact et l'identité. Plus Jakarta Sans pour la lisibilité sur tous les écrans, même sur réseau 3G lent.</div>
+  <div class="trow">
+    <div class="tcard">
+      <div class="ts-sora">AssuRStable</div>
+      <div class="tmeta">Police d'affichage — Titres</div>
+      <div class="tname" style="font-family:'Sora',sans-serif;">Sora</div>
+      <div class="tuse">Titres H1, H2, logo, grands chiffres, accroches. Moderne mais chaleureux, pas trop technique.</div>
+    </div>
+    <div class="tcard">
+      <div class="ts-jak">Votre assurance,<br>en toute confiance.</div>
+      <div class="tmeta">Police de corps — Interface</div>
+      <div class="tname">Plus Jakarta Sans</div>
+      <div class="tuse">Boutons, labels, corps de texte, formulaires, navigation. Excellente lisibilité mobile, même à 12px.</div>
+    </div>
+  </div>
+  <div class="sbox">
+    <div class="si"><div class="slabel">H1 · 32px · 800</div><div style="font-family:'Sora',sans-serif;font-size:32px;font-weight:800;color:#076834;">Bienvenue chez YAKO Africa</div></div>
+    <div class="si"><div class="slabel">H2 · 24px · 700</div><div style="font-family:'Sora',sans-serif;font-size:24px;font-weight:700;">Choisissez votre produit</div></div>
+    <div class="si"><div class="slabel">H3 · 18px · 700</div><div style="font-size:18px;font-weight:700;">YAKO Éternité — Protection vie</div></div>
+    <div class="si"><div class="slabel">Corps · 15px · 400</div><div style="font-size:15px;">Souscrivez en quelques minutes et protégez votre famille avec un contrat adapté à votre budget.</div></div>
+    <div class="si"><div class="slabel">Small · 13px · 500</div><div style="font-size:13px;font-weight:500;color:#6B7280;">Paiement mensuel · Montant minimum : 3 000 FCFA</div></div>
+    <div class="si"><div class="slabel">Montant · 28px · 800</div><div style="font-family:'Sora',sans-serif;font-size:28px;font-weight:800;color:#F7A400;">15 000 <span style="font-size:16px;font-weight:600;color:#6B7280;">FCFA/mois</span></div></div>
+  </div>
+</div>
+
+<!-- 03 COMPOSANTS -->
+<div class="sec bg">
+  <div class="stag">03 — Composants UI</div>
+  <div class="stitle">Bibliothèque de composants</div>
+  <div class="ssub">Chaque composant fonctionne sur un écran de 360px (téléphone bas de gamme), avec des zones de touch d'au moins 44px.</div>
+  <div class="cgrid">
+    <div class="cc">
+      <div class="clabel">Boutons</div>
+      <button class="btn bp">Souscrire maintenant</button><br>
+      <button class="btn bs">Payer ma prime</button><br>
+      <button class="btn bo">Voir mes contrats</button><br>
+      <button class="btn bg2">En savoir plus</button><br>
+      <button class="btn bp bsm">Confirmer</button>
+      <button class="btn bd bsm">Annuler</button>
+      <div style="margin-top:14px;font-size:11px;color:#6B7280;line-height:1.6;"><strong>Règle :</strong> Un seul bouton primaire par écran. L'or (#F7A400) est réservé aux actions de paiement uniquement.</div>
+    </div>
+    <div class="cc">
+      <div class="clabel">Formulaire</div>
+      <label class="inlabel">Numéro de téléphone</label>
+      <input class="inp" type="text" placeholder="07 00 00 00 00" readonly />
+      <p class="inhint">Format ivoirien : 07, 05, 01, 25, 27...</p>
+      <label class="inlabel">Email</label>
+      <input class="inp filled" type="text" value="konan.adjoua@gmail.com" readonly />
+      <label class="inlabel" style="color:#E53E3E;">Mot de passe</label>
+      <input class="inp" type="password" placeholder="••••••••" style="border-color:#E53E3E;" readonly />
+      <p class="inerr">Minimum 6 caractères requis</p>
+    </div>
+    <div class="cc">
+      <div class="clabel">Badges et statuts</div>
+      <span class="badge bsuc">Contrat actif</span>
+      <span class="badge bwarn">En attente</span>
+      <span class="badge berr">Paiement échoué</span>
+      <span class="badge binf">Nouveau</span>
+      <span class="badge bneu">Expiré</span>
+      <div style="margin-top:14px;">
+        <span class="badge bsuc">YAKO Éternité</span>
+        <span class="badge bwarn">Mensuel</span>
+        <span class="badge binf">15 000 FCFA</span>
+      </div>
+    </div>
+    <div class="cc">
+      <div class="clabel">Vérification OTP</div>
+      <p style="font-size:13px;color:#6B7280;margin-bottom:14px;">Code envoyé au <strong style="color:#1A1A1A;">+225 07 00 00 00 00</strong></p>
+      <div class="otp">
+        <div class="ob fil">4</div>
+        <div class="ob fil">7</div>
+        <div class="ob fil">2</div>
+        <div class="ob act"></div>
+        <div class="ob"></div>
+        <div class="ob"></div>
+      </div>
+      <p style="font-size:12px;color:#6B7280;margin-top:12px;">Pas reçu ? <span style="color:#076834;font-weight:700;cursor:pointer;">Renvoyer le code</span></p>
+    </div>
+    <div class="cc">
+      <div class="clabel">Méthodes de paiement</div>
+      <div class="pm sel"><div class="pdot"></div><div class="picon" style="background:#E8F5EE;">🌊</div><div><div class="pname">Wave</div><div class="pdesc">Paiement direct instantané</div></div></div>
+      <div class="pm"><div class="pdot"></div><div class="picon" style="background:#FFF0E0;">🟠</div><div><div class="pname">Orange Money</div><div class="pdesc">Via CinetPay</div></div></div>
+      <div class="pm"><div class="pdot"></div><div class="picon" style="background:#FFFDE0;">🟡</div><div><div class="pname">MTN MoMo</div><div class="pdesc">Via CinetPay</div></div></div>
+      <div class="pm"><div class="pdot"></div><div class="picon" style="background:#E0EEFF;">🔵</div><div><div class="pname">Moov Money</div><div class="pdesc">Via CinetPay</div></div></div>
+    </div>
+    <div class="cc">
+      <div class="clabel">Cartes contrats</div>
+      <div class="ccon">
+        <div class="cctop" style="background:#076834;color:white;">
+          <div style="display:flex;align-items:center;gap:12px;"><div class="ccico" style="background:rgba(255,255,255,.15);">🛡️</div><div><div class="ccname">YAKO Éternité</div><div class="ccsub">Prévoyance & épargne</div></div></div>
+          <div><div class="ccamt">15 000</div><div class="ccalab">FCFA/mois</div></div>
+        </div>
+        <div class="ccbot" style="background:#F0F9F4;border-top-color:#C2E0CE;border-top:1px solid #C2E0CE;"><span style="font-size:12px;color:#065C2E;font-weight:600;">✓ Contrat actif</span><span style="font-size:11px;color:#6B7280;">Prochain paiement : 7 mai</span></div>
+      </div>
+      <div class="ccon">
+        <div class="cctop" style="background:#F7A400;color:#412402;">
+          <div style="display:flex;align-items:center;gap:12px;"><div class="ccico" style="background:rgba(0,0,0,.1);">🎓</div><div><div class="ccname">Cadence Éducation</div><div class="ccsub">Épargne scolaire</div></div></div>
+          <div><div class="ccamt">7 500</div><div class="ccalab">FCFA/mois</div></div>
+        </div>
+        <div class="ccbot" style="background:#FFF8E8;border-top:1px solid #F7D580;"><span style="font-size:12px;color:#7A4D00;font-weight:600;">⏳ En attente</span><span style="font-size:11px;color:#6B7280;">Paiement requis</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 04 TELEPHONE -->
+<div class="phsec">
+  <div class="phtext">
+    <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;opacity:.5;margin-bottom:8px;font-weight:700;">04 — Aperçu Mobile</div>
+    <h2>L'application en situation réelle</h2>
+    <p>Voici comment l'interface apparaît sur le téléphone de Konan Adjoua, couturière à Yopougon. Design épuré, lisible en plein soleil, actions directement accessibles.</p>
+    <div class="phck">En-tête vert personnalisé avec le prénom</div>
+    <div class="phck">Carte épargne visible avec le montant total</div>
+    <div class="phck">Bouton "Payer" en or — impossible à rater</div>
+    <div class="phck">3 produits accessibles en 1 tap depuis l'accueil</div>
+    <div class="phck">Navigation basse avec icônes claires</div>
+  </div>
+  <div class="pfr">
+    <div class="pnotch"></div>
+    <div class="pscr">
+      <div class="psh">
+        <div class="psgreet">Bonjour 👋</div>
+        <div class="psname">Konan Adjoua</div>
+        <div class="psbal">
+          <div class="psballab">Mon épargne totale</div>
+          <div class="psamt">124 500 FCFA</div>
+          <div class="psamsub">Mis à jour aujourd'hui</div>
+          <button class="pspay">💳 Payer ma prime</button>
+        </div>
+      </div>
+      <div class="psb">
+        <div class="pssl">Mes produits</div>
+        <div class="psprod">
+          <div class="pspc"><div class="pspi">🛡️</div><div class="pspn">YAKO Éternité</div><div class="pspam">15 000 FCFA/mois</div></div>
+          <div class="pspc"><div class="pspi">🎓</div><div class="pspn">Cadence Éduc.</div><div class="pspam">7 500 FCFA/mois</div></div>
+          <div class="pspc" style="background:#FFF4DC;border-color:#F7D580;"><div class="pspi">💰</div><div class="pspn" style="color:#7A4D00;">DOIHOO</div><div class="pspam">Souscrire →</div></div>
+          <div class="pspc" style="background:#E8F5EE;border-color:#C2E0CE;"><div class="pspi">📊</div><div class="pspn" style="text-align:center;">Tableau bord</div></div>
+        </div>
+        <div class="pssl">Prochain paiement</div>
+        <div style="background:white;border-radius:12px;padding:12px 14px;border:1px solid #E5E7EB;display:flex;justify-content:space-between;align-items:center;">
+          <div><div style="font-size:12px;font-weight:700;">YAKO Éternité</div><div style="font-size:11px;color:#6B7280;">Dans 5 jours · 7 mai</div></div>
+          <div style="font-size:14px;font-weight:800;color:#F7A400;">15 000</div>
+        </div>
+      </div>
+      <div class="psnav">
+        <div class="psni act"><div class="psnavico">🏠</div><div>Accueil</div></div>
+        <div class="psni"><div class="psnavico">📋</div><div>Contrats</div></div>
+        <div class="psni"><div class="psnavico">💳</div><div>Paiements</div></div>
+        <div class="psni"><div class="psnavico">👤</div><div>Profil</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 05 TOKENS -->
+<div class="sec">
+  <div class="stag">05 — Design Tokens</div>
+  <div class="stitle">Variables CSS — Copier dans theme.css</div>
+  <div class="ssub">Ces valeurs remplacent le fichier theme.css existant du projet React. Copier-coller directement.</div>
+  <div class="code-block">
+    <span style="color:#6B9F6B;">/* ── AssuRStable × YAKO Africa — theme.css ── */</span><br>
+    <span style="color:#80CBC4;">:root</span> {<br>
+    &nbsp;&nbsp;<span style="color:#6B9F6B;">/* Couleurs YAKO officielles */</span><br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--primary</span>: <span style="color:#F7A400;">#F7A400</span>;<span style="color:#555;font-size:11px;"> /* Or Akan — paiement */</span><br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--secondary</span>: <span style="color:#8BC34A;">#076834</span>;<span style="color:#555;font-size:11px;"> /* Vert Forêt — identité YAKO */</span><br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--primary-foreground</span>: <span style="color:#C9A800;">#412402</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--secondary-foreground</span>: <span style="color:#eee;">#FFFFFF</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--background</span>: <span style="color:#FDF8F2;">#FDF8F2</span>;<span style="color:#555;font-size:11px;"> /* Beige Wax */</span><br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--card</span>: <span style="color:#eee;">#FFFFFF</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--muted</span>: <span style="color:#F5EDE4;">#F5EDE4</span>;<span style="color:#555;font-size:11px;"> /* Terre claire */</span><br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--foreground</span>: <span style="color:#eee;">#1A1A1A</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--muted-foreground</span>: <span style="color:#9E9E9E;">#6B7280</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--border</span>: <span style="color:#9E9E9E;">#E5E7EB</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--ring</span>: <span style="color:#F7A400;">#F7A400</span>;<br>
+    &nbsp;&nbsp;<span style="color:#FFD580;">--radius</span>: <span style="color:#80CBC4;">0.75rem</span>;<span style="color:#555;font-size:11px;"> /* 12px — coins arrondis mobiles */</span><br>
+    }
+  </div>
+  <div class="tkgrid">
+    <div class="tkcard"><div class="tkcat">Espacement</div><div class="tkrow"><span class="tknm">Très petit</span><span class="tkval">4px</span></div><div class="tkrow"><span class="tknm">Petit</span><span class="tkval">8px</span></div><div class="tkrow"><span class="tknm">Moyen</span><span class="tkval">16px</span></div><div class="tkrow"><span class="tknm">Grand</span><span class="tkval">24px</span></div><div class="tkrow"><span class="tknm">Très grand</span><span class="tkval">40px</span></div></div>
+    <div class="tkcard"><div class="tkcat">Rayons de coins</div><div class="tkrow"><span class="tknm">Bouton small</span><span class="tkval">8px</span></div><div class="tkrow"><span class="tknm">Input / Bouton</span><span class="tkval">12px</span></div><div class="tkrow"><span class="tknm">Carte</span><span class="tkval">16px</span></div><div class="tkrow"><span class="tknm">Modal</span><span class="tkval">20px</span></div><div class="tkrow"><span class="tknm">Badge pill</span><span class="tkval">20px</span></div></div>
+    <div class="tkcard"><div class="tkcat">Touch target mobile</div><div class="tkrow"><span class="tknm">Minimum absolu</span><span class="tkval">44px</span></div><div class="tkrow"><span class="tknm">Bouton standard</span><span class="tkval">48px</span></div><div class="tkrow"><span class="tknm">Bouton principal</span><span class="tkval">56px</span></div><div class="tkrow"><span class="tknm">OTP box</span><span class="tkval">52px</span></div><div class="tkrow"><span class="tknm">Nav icon</span><span class="tkval">48px</span></div></div>
+    <div class="tkcard"><div class="tkcat">Ombres</div><div class="tkrow"><span class="tknm">Aucune</span><span class="tkval">none</span></div><div class="tkrow"><span class="tknm">Légère</span><span class="tkval">0 1px 3px rgba(0,0,0,.08)</span></div><div class="tkrow"><span class="tknm">Carte</span><span class="tkval">0 4px 16px rgba(0,0,0,.07)</span></div><div class="tkrow"><span class="tknm">Focus ring</span><span class="tkval">0 0 0 3px rgba(247,164,0,.3)</span></div></div>
+  </div>
+</div>
+
+<!-- 06 ACCESSIBILITE -->
+<div class="sec bg">
+  <div class="stag">06 — Accessibilité</div>
+  <div class="stitle">Contraste pour tous les profils</div>
+  <div class="ssub">Chaque combinaison respecte le ratio WCAG AA (minimum 4.5:1). Validé pour les écrans bon marché et la lecture en plein soleil ivoirien.</div>
+  <div class="contgrid">
+    <div class="contcard" style="background:#076834;"><div class="contsample" style="color:white;">Texte blanc sur vert</div><div class="contmeta" style="color:rgba(255,255,255,.65);">Header, nav, boutons</div><div class="contratio" style="color:#FFD580;">9.2:1 ✓ AAA</div></div>
+    <div class="contcard" style="background:#F7A400;"><div class="contsample" style="color:#412402;">Texte foncé sur or</div><div class="contmeta" style="color:#7A4D00;">Boutons CTA paiement</div><div class="contratio" style="color:#412402;">5.8:1 ✓ AA</div></div>
+    <div class="contcard" style="background:white;border:1px solid #E5E7EB;"><div class="contsample" style="color:#076834;">Vert sur blanc</div><div class="contmeta" style="color:#6B7280;">Liens, textes colorés</div><div class="contratio rok">9.2:1 ✓ AAA</div></div>
+    <div class="contcard" style="background:#FDF8F2;border:1px solid #E5E7EB;"><div class="contsample" style="color:#1A1A1A;">Noir sur beige</div><div class="contmeta" style="color:#6B7280;">Corps de texte</div><div class="contratio rok">17.1:1 ✓ AAA</div></div>
+    <div class="contcard" style="background:#E8F5EE;border:1px solid #C2E0CE;"><div class="contsample" style="color:#065C2E;">Vert foncé/vert pâle</div><div class="contmeta" style="color:#0D4D28;">Badges succès</div><div class="contratio rok">6.1:1 ✓ AA</div></div>
+    <div class="contcard" style="background:#FFF4DC;border:1px solid #F7C96A;"><div class="contsample" style="color:#7A4D00;">Marron sur or pâle</div><div class="contmeta" style="color:#B45309;">Alertes, en attente</div><div class="contratio rgo">4.7:1 ✓ AA</div></div>
+  </div>
+</div>
+
+<!-- 07 PARCOURS -->
+<div class="sec">
+  <div class="stag">07 — Parcours utilisateur</div>
+  <div class="stitle">Les 6 étapes de l'onboarding</div>
+  <div class="ssub">Chaque étape a un seul objectif. Un seul bouton principal par écran. L'utilisateur ne se perd jamais.</div>
+  <div class="steps">
+    <div class="step-i"><div class="stepcirc">👋</div><div class="stepn">ÉTAPE 01</div><div class="stepname">Accueil & produits</div><div class="stepdesc">Page vitrine YAKO. Fond beige, tons verts, boutons d'action.</div></div>
+    <div class="step-i"><div class="stepcirc">📝</div><div class="stepn">ÉTAPE 02</div><div class="stepname">Inscription</div><div class="stepdesc">Prénom, nom, téléphone ivoirien, email. Validation temps réel.</div></div>
+    <div class="step-i"><div class="stepcirc">🔐</div><div class="stepn">ÉTAPE 03</div><div class="stepname">OTP SMS</div><div class="stepdesc">6 chiffres via Twilio. Boîtes vertes quand remplies.</div></div>
+    <div class="step-i"><div class="stepcirc">🛡️</div><div class="stepn">ÉTAPE 04</div><div class="stepname">Choix produit</div><div class="stepdesc">Cartes des 3 produits YAKO. Sélection habillée en vert ou or.</div></div>
+    <div class="step-i"><div class="stepcirc">👨‍👩‍👧</div><div class="stepn">ÉTAPE 05</div><div class="stepname">Bénéficiaires</div><div class="stepdesc">Jauge de répartition en or. Total doit égaler 100%.</div></div>
+    <div class="step-i"><div class="stepcirc">💳</div><div class="stepn">ÉTAPE 06</div><div class="stepname">Paiement</div><div class="stepdesc">Wave, Orange, MTN, Moov. Bouton payer en or. Confirmation en vert.</div></div>
+  </div>
+</div>
+
+<div class="footer">
+  <h3>AssuRStable × YAKO Africa Assurances Vie</h3>
+  <p>Charte graphique — Version 1.0 — Hackathon InsurTech Challenge 2026</p>
+  <p style="margin-top:6px;font-size:12px;opacity:.5;">Conçue pour être universelle : couturière de Yopougon, commerçant de Bouaké, cadre du Plateau, maman de Man.</p>
+  <div class="fgrid">
+    <div class="fcol">
+      <h4>Couleurs officielles</h4>
+      <div class="fi"><div class="fsw" style="background:#076834;"></div><span>#076834 Vert Forêt (Primaire)</span></div>
+      <div class="fi"><div class="fsw" style="background:#F7A400;"></div><span>#F7A400 Or Akan (Action)</span></div>
+      <div class="fi"><div class="fsw" style="background:#FDF8F2;border:1px solid rgba(255,255,255,.2);"></div><span>#FDF8F2 Beige Wax (Fond)</span></div>
+      <div class="fi"><div class="fsw" style="background:#F5EDE4;"></div><span>#F5EDE4 Terre Claire (Repos)</span></div>
+    </div>
+    <div class="fcol">
+      <h4>Polices</h4>
+      <div class="fi" style="font-family:'Sora',sans-serif;font-size:14px;font-weight:700;">Sora — Titres & Chiffres</div>
+      <div class="fi" style="font-size:14px;">Plus Jakarta Sans — Interface</div>
+    </div>
+    <div class="fcol">
+      <h4>Les 5 règles d'or</h4>
+      <div class="fi">Max 3 couleurs par écran</div>
+      <div class="fi">Un seul bouton principal par page</div>
+      <div class="fi">Touch target minimum 44px</div>
+      <div class="fi">Texte minimum 13px sur mobile</div>
+      <div class="fi">Or = paiement uniquement</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

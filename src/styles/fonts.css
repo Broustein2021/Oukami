@@ -1,0 +1,15 @@
+/* ── AssuRStable × YAKO Africa — Polices officielles ── */
+
+/* Sora — Pour titres, chiffres, logo */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap');
+
+/* Plus Jakarta Sans — Pour interface, boutons, formulaires */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, .font-display {
+  font-family: 'Sora', sans-serif;
+}

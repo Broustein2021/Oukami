@@ -1,0 +1,364 @@
+{
+  "name": "YAKO Africa Design System",
+  "version": "1.0.0",
+  "description": "Design tokens pour AssuRStable × YAKO Africa Assurances Vie",
+  "colors": {
+    "primary": {
+      "vert-foret": {
+        "value": "#076834",
+        "description": "Vert Forêt - Identité principale YAKO",
+        "usage": "Boutons principaux, headers, éléments de marque"
+      },
+      "vert-savane": {
+        "value": "#0D8E46",
+        "description": "Vert Savane - Variante plus claire",
+        "usage": "États hover, succès, confirmations"
+      },
+      "vert-pale": {
+        "value": "#E8F5EE",
+        "description": "Vert pâle - Arrière-plans",
+        "usage": "Backgrounds légers, badges de statut"
+      },
+      "vert-border": {
+        "value": "#C2E0CE",
+        "description": "Vert bordure",
+        "usage": "Bordures, séparateurs subtils"
+      }
+    },
+    "accent": {
+      "or-akan": {
+        "value": "#F7A400",
+        "description": "Or Akan - Accent pour paiements uniquement",
+        "usage": "Montants, boutons de paiement, actions financières"
+      },
+      "or-profond": {
+        "value": "#C47D00",
+        "description": "Or profond - Variante sombre",
+        "usage": "États hover pour éléments Or Akan"
+      },
+      "or-pale": {
+        "value": "#FFF4DC",
+        "description": "Or pâle - Arrière-plans",
+        "usage": "Backgrounds d'alertes, badges en attente"
+      },
+      "or-foreground": {
+        "value": "#412402",
+        "description": "Or foreground - Texte sur fond or",
+        "usage": "Texte sur boutons Or Akan"
+      }
+    },
+    "neutral": {
+      "beige-wax": {
+        "value": "#FDF8F2",
+        "description": "Beige Wax - Fond principal",
+        "usage": "Background de l'application"
+      },
+      "terre": {
+        "value": "#F5EDE4",
+        "description": "Beige Terre - Variante",
+        "usage": "Backgrounds de tableaux, sections alternées"
+      },
+      "gris": {
+        "value": "#6B7280",
+        "description": "Gris - Texte secondaire",
+        "usage": "Labels, textes d'aide, informations secondaires"
+      },
+      "gris-clair": {
+        "value": "#F4F4F4",
+        "description": "Gris clair - Backgrounds",
+        "usage": "Backgrounds neutres, éléments désactivés"
+      },
+      "gris-border": {
+        "value": "#E5E7EB",
+        "description": "Gris bordure",
+        "usage": "Bordures de cartes, séparateurs"
+      },
+      "noir": {
+        "value": "#1A1A1A",
+        "description": "Noir - Texte principal",
+        "usage": "Titres, textes principaux"
+      },
+      "blanc": {
+        "value": "#FFFFFF",
+        "description": "Blanc",
+        "usage": "Cartes, modales, texte sur fonds sombres"
+      }
+    },
+    "feedback": {
+      "success": {
+        "value": "#0D8E46",
+        "description": "Succès",
+        "usage": "Messages de confirmation, états validés"
+      },
+      "error": {
+        "value": "#E53E3E",
+        "description": "Erreur",
+        "usage": "Messages d'erreur, états échoués"
+      },
+      "warning": {
+        "value": "#F7A400",
+        "description": "Avertissement",
+        "usage": "Alertes, actions en attente"
+      },
+      "info": {
+        "value": "#076834",
+        "description": "Information",
+        "usage": "Messages informatifs, aide"
+      }
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "Sora",
+        "weights": {
+          "regular": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700,
+          "extrabold": 800
+        },
+        "description": "Police pour tous les titres (h1, h2, h3, h4)",
+        "usage": "Titres, grands chiffres, éléments de marque"
+      },
+      "body": {
+        "family": "Plus Jakarta Sans",
+        "weights": {
+          "regular": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700
+        },
+        "description": "Police pour le corps de texte",
+        "usage": "Paragraphes, labels, boutons, formulaires"
+      }
+    },
+    "sizes": {
+      "xs": {
+        "value": "0.75rem",
+        "lineHeight": "1rem",
+        "description": "12px - Très petit texte"
+      },
+      "sm": {
+        "value": "0.875rem",
+        "lineHeight": "1.25rem",
+        "description": "14px - Petit texte"
+      },
+      "base": {
+        "value": "1rem",
+        "lineHeight": "1.5rem",
+        "description": "16px - Taille par défaut"
+      },
+      "lg": {
+        "value": "1.125rem",
+        "lineHeight": "1.75rem",
+        "description": "18px - Grand texte"
+      },
+      "xl": {
+        "value": "1.25rem",
+        "lineHeight": "1.75rem",
+        "description": "20px - Titre niveau 4"
+      },
+      "2xl": {
+        "value": "1.5rem",
+        "lineHeight": "2rem",
+        "description": "24px - Titre niveau 3"
+      },
+      "3xl": {
+        "value": "1.875rem",
+        "lineHeight": "2.25rem",
+        "description": "30px - Titre niveau 2"
+      },
+      "4xl": {
+        "value": "2.25rem",
+        "lineHeight": "2.5rem",
+        "description": "36px - Titre niveau 1"
+      },
+      "5xl": {
+        "value": "3rem",
+        "lineHeight": "1.2",
+        "description": "48px - Grand titre hero"
+      }
+    }
+  },
+  "spacing": {
+    "xs": {
+      "value": "0.25rem",
+      "description": "4px - Espacement minimal"
+    },
+    "sm": {
+      "value": "0.5rem",
+      "description": "8px - Petit espacement"
+    },
+    "md": {
+      "value": "1rem",
+      "description": "16px - Espacement standard"
+    },
+    "lg": {
+      "value": "1.5rem",
+      "description": "24px - Grand espacement"
+    },
+    "xl": {
+      "value": "2rem",
+      "description": "32px - Très grand espacement"
+    },
+    "2xl": {
+      "value": "3rem",
+      "description": "48px - Espacement de section"
+    },
+    "3xl": {
+      "value": "4rem",
+      "description": "64px - Espacement de page"
+    }
+  },
+  "radii": {
+    "sm": {
+      "value": "0.5rem",
+      "description": "8px - Coins légèrement arrondis"
+    },
+    "md": {
+      "value": "0.75rem",
+      "description": "12px - Coins arrondis standards (mobile-friendly)"
+    },
+    "lg": {
+      "value": "1rem",
+      "description": "16px - Coins très arrondis"
+    },
+    "xl": {
+      "value": "1.5rem",
+      "description": "24px - Coins fortement arrondis"
+    },
+    "2xl": {
+      "value": "2rem",
+      "description": "32px - Coins maximum arrondis"
+    },
+    "full": {
+      "value": "9999px",
+      "description": "Cercle/pilule parfait"
+    }
+  },
+  "shadows": {
+    "sm": {
+      "value": "0 1px 3px rgba(0, 0, 0, 0.08)",
+      "description": "Ombre légère"
+    },
+    "md": {
+      "value": "0 4px 16px rgba(0, 0, 0, 0.07)",
+      "description": "Ombre standard"
+    },
+    "lg": {
+      "value": "0 10px 40px rgba(0, 0, 0, 0.1)",
+      "description": "Ombre importante"
+    },
+    "focus": {
+      "value": "0 0 0 3px rgba(247, 164, 0, 0.3)",
+      "description": "Ombre de focus (Or Akan)"
+    }
+  },
+  "breakpoints": {
+    "sm": {
+      "value": "640px",
+      "description": "Petit mobile"
+    },
+    "md": {
+      "value": "768px",
+      "description": "Tablette"
+    },
+    "lg": {
+      "value": "1024px",
+      "description": "Desktop"
+    },
+    "xl": {
+      "value": "1280px",
+      "description": "Large desktop"
+    }
+  },
+  "touch": {
+    "minTargetSize": {
+      "value": "44px",
+      "description": "Taille minimale des zones tactiles pour accessibilité mobile"
+    }
+  },
+  "transactionStatuses": {
+    "draft": {
+      "label": "Brouillon",
+      "color": "#6B7280",
+      "backgroundColor": "#F4F4F4"
+    },
+    "pending_payment": {
+      "label": "En attente paiement",
+      "color": "#F7A400",
+      "backgroundColor": "#FFF4DC"
+    },
+    "payment_confirmed": {
+      "label": "Paiement confirmé",
+      "color": "#076834",
+      "backgroundColor": "#E8F5EE"
+    },
+    "finalized": {
+      "label": "Finalisée",
+      "color": "#0D8E46",
+      "backgroundColor": "#E8F5EE"
+    },
+    "failed": {
+      "label": "Échouée",
+      "color": "#E53E3E",
+      "backgroundColor": "#FEE2E2"
+    },
+    "cancelled": {
+      "label": "Annulée",
+      "color": "#6B7280",
+      "backgroundColor": "#F4F4F4"
+    },
+    "conflict": {
+      "label": "Conflit",
+      "color": "#F7A400",
+      "backgroundColor": "#FFF4DC"
+    },
+    "network_error": {
+      "label": "Erreur réseau",
+      "color": "#E53E3E",
+      "backgroundColor": "#FEE2E2"
+    }
+  },
+  "mobileMoneyProviders": {
+    "wave": {
+      "name": "Wave",
+      "color": "#00D9A5"
+    },
+    "orange": {
+      "name": "Orange Money",
+      "color": "#FF6600"
+    },
+    "mtn": {
+      "name": "MTN Mobile Money",
+      "color": "#FFCC00"
+    },
+    "moov": {
+      "name": "Moov Money",
+      "color": "#0066CC"
+    }
+  },
+  "products": {
+    "eternite": {
+      "name": "YAKO Éternité",
+      "color": "#076834",
+      "description": "Prévoyance & épargne vie entière"
+    },
+    "soutra": {
+      "name": "Soutra",
+      "color": "#0D8E46",
+      "description": "Épargne retraite"
+    },
+    "doiho": {
+      "name": "Doihô",
+      "color": "#F7A400",
+      "description": "Protection familiale"
+    },
+    "cadence": {
+      "name": "Cadence Éducation",
+      "color": "#076834",
+      "description": "Épargne scolaire"
+    }
+  }
+}
